@@ -32,7 +32,7 @@ export default function DisplayName(){
             <label>Last Name:
                 <input type="text" value={second} onChange={handlerSecondName} />
             </label>
-            <button style={{width:"100px", margin:"8px"}} onClick={submitForm}>submit</button>
+            <button type="submit "style={{width:"100px", margin:"8px"}} onClick={submitForm}>submit</button>
             
         </form> 
 
