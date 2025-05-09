@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
+  text-align: start;
+}
+
+.App > form > label{
+  margin:8px;
 }
 
 .App-logo {
